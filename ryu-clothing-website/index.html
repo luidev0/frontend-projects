@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryu Clothing</title>
+    <!-- Swiper JS CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <section class="flex">
+        <a href="#home" class="header__logo"
+          ><img src="rsc/images/logo.png" alt="Happy Raymi"
+        /></a>
+        <nav class="header__navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#offers">offers</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars-staggered"></div>
+      </section>
+    </header>
+    <!-- Home section -->
+    <div class="home" id="home">
+      <img
+        src="rsc/images/home-image.png"
+        class="home__image"
+        alt="Ryo Clothes 2024"
+      />
+    </div>
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="flex">
+        <div class="about__image">
+          <img src="rsc/images/about-img.png" alt="About us" />
+        </div>
+        <div class="about__content">
+          <h3>ryu clothing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            deserunt excepturi ab sunt id, quidem dolor ea a veritatis ipsam
+            adipisci amet facilis exercitationem! Fugiat eius placeat
+            perferendis dolores voluptas!
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="about__content">
+          <h3>100% cotton</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            deserunt excepturi ab sunt id, quidem dolor ea a veritatis ipsam
+            adipisci amet facilis exercitationem! Fugiat eius placeat
+            perferendis dolores voluptas!
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="about__image">
+          <img src="rsc/images/about-img2.png" alt="About us" />
+        </div>
+      </div>
+    </section>
+    <!-- Countdown section -->
+    <div class="offer-countdown">
+      <section class="content">
+        <h3>Time is priceless...</h3>
+        <p>as our offers. Deadline:</p>
+        <div class="flex">
+          <div class="box">
+            <div class="count" id="day">00</div>
+            <span>days</span>
+          </div>
+          <div class="box">
+            <div class="count" id="hour">00</div>
+            <span>hours</span>
+          </div>
+          <div class="box">
+            <div class="count" id="minute">00</div>
+            <span>minutes</span>
+          </div>
+          <div class="box">
+            <div class="count" id="second">00</div>
+            <span>seconds</span>
+          </div>
+        </div>
+        <a href="#offers" class="btn">view offers</a>
+      </section>
+    </div>
+    <!-- Offers section -->
+    <section id="offers">
+      <div class="offers">
+        <div class="swiper products-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="rsc/images/product-5.png" alt="Hoddies" />
+              <h3>Hoddies</h3>
+              <p>upto 30% off</p>
+              <a href="#" class="btn">loot</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="rsc/images/product-3.png" alt="Caps" />
+              <h3>Japanese caps</h3>
+              <p>upto 25% off</p>
+              <a href="#" class="btn">loot</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="rsc/images/product-1.webp" alt="TShirts" />
+              <h3>T-shirts</h3>
+              <p>upto 20% off</p>
+              <a href="#" class="btn">loot</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="rsc/images/product-2.webp" alt="Joggers" />
+              <h3>Ninja Joggers</h3>
+              <p>upto 15% off</p>
+              <a href="#" class="btn">loot</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="rsc/images/product-4.png" alt="Sneakers" />
+              <h3>Tabis</h3>
+              <p>upto 10% off</p>
+              <a href="#" class="btn">loot</a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <div class="contact-container" id="contact">
+      <section class="row">
+        <div class="info-container">
+          <div class="box">
+            <i class="fa fa-map-marker-alt"></i>
+            <div>
+              <h3>address</h3>
+              <p>lima, peru - 123 456</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>phone</h3>
+              <p>(+51)132456789</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>email</h3>
+              <p>ryuclothing.pe@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <form action="" method="post">
+          <h3>Send us a letter</h3>
+          <div class="flex">
+            <input
+              type="text"
+              name="name"
+              maxlength="30"
+              class="input"
+              placeholder="Luigui P."
+            />
+            <input
+              type="number"
+              name="number"
+              maxlength="9"
+              class="input"
+              placeholder="999888777"
+            />
+          </div>
+          <input
+            type="email"
+            name="email"
+            maxlength="30"
+            class="input"
+            placeholder="Example@gmail.com"
+          />
+          <textarea
+            name="message"
+            class="input"
+            maxlength="1000"
+            cols="30"
+            rows="10"
+            placeholder="Here goes your letter."
+          ></textarea>
+          <input type="submit" value="Send letter" class="btn" />
+        </form>
+      </section>
+    </div>
+    <!-- Footer section -->
+    <footer class="footer">
+      <section>created by <span>luigui p</span>. all rights reserved</section>
+    </footer>
+    <!-- Loader widget -->
+    <div class="loader-container">
+      <img src="rsc/images/loader.gif" alt="Loader" />
+    </div>
+    <!-- Swiper JS file-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JS file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

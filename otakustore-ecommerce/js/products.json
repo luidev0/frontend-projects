@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nendoroid-01",
+    "title": "Nendoroid Nanachi",
+    "img": "./img/nendoroids/01.webp",
+    "category": {
+      "label": "Nendoroids",
+      "id": "nendoroids"
+    },
+    "price": 50
+  },
+  {
+    "id": "nendoroid-02",
+    "title": "Nendoroid Joseph Joestar",
+    "img": "./img/nendoroids/02.webp",
+    "category": {
+      "label": "Nendoroids",
+      "id": "nendoroids"
+    },
+    "price": 50
+  },
+  {
+    "id": "nendoroid-03",
+    "title": "Nendoroid River",
+    "img": "./img/nendoroids/03.webp",
+    "category": {
+      "label": "Nendoroids",
+      "id": "nendoroids"
+    },
+    "price": 50
+  },
+  {
+    "id": "nendoroid-04",
+    "title": "Nendoroid Doll Little Red Riding",
+    "img": "./img/nendoroids/04.webp",
+    "category": {
+      "label": "Nendoroids",
+      "id": "nendoroids"
+    },
+    "price": 75
+  },
+  {
+    "id": "nendoroid-05",
+    "title": "Nendoroid Doll Wolf: Ash",
+    "img": "./img/nendoroids/05.jpg",
+    "category": {
+      "label": "Nendoroids",
+      "id": "nendoroids"
+    },
+    "price": 75
+  },  
+  {
+    "id": "figma-01",
+    "title": "Figma La+ Darknesss",
+    "img": "./img/figma/01.webp",
+    "category": {
+      "label": "Figmas",
+      "id": "figmas"
+    },
+    "price": 75
+  },
+  {
+    "id": "figma-02",
+    "title": "Figma Shiroko Sunaookami",
+    "img": "./img/figma/02.webp",
+    "category": {
+      "label": "Figmas",
+      "id": "figmas"
+    },
+    "price": 75
+  },
+  {
+    "id": "figma-03",
+    "title": "Figma Makima",
+    "img": "./img/figma/03.webp",
+    "category": {
+      "label": "Figmas",
+      "id": "figmas"
+    },
+    "price": 75
+  },
+  {
+    "id": "figma-04",
+    "title": "Figma Racing Miku 2023 ver.",
+    "img": "./img/figma/04.webp",
+    "category": {
+      "label": "Figmas",
+      "id": "figmas"
+    },
+    "price": 100
+  },
+  {
+    "id": "figma-05",
+    "title": "Figma Gawr Gura",
+    "img": "./img/figma/05.webp",
+    "category": {
+      "label": "Figmas",
+      "id": "figmas"
+    },
+    "price": 100
+  },  
+  {
+    "id": "figure-01",
+    "title": "Akira Todo: Bunny Ver.",
+    "img": "./img/scale-figures/01.jpg",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 150
+  },
+  {
+    "id": "figure-02",
+    "title": "JUJUTSU KAISEN Figure Nobara Kugisaki",
+    "img": "./img/scale-figures/02.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 150
+  },
+  {
+    "id": "figure-03",
+    "title": "Seimei: Lunar Corona Ver.",
+    "img": "./img/scale-figures/03.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 150
+  },
+  {
+    "id": "figure-04",
+    "title": "Vivy",
+    "img": "./img/scale-figures/04.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 175
+  },
+  {
+    "id": "figure-05",
+    "title": "Lucy Heartfilia: Bare Leg Bunny",
+    "img": "./img/scale-figures/05.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 175
+  },
+  {
+    "id": "figure-06",
+    "title": "The Butcher of the Sands Renekton",
+    "img": "./img/scale-figures/06.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 250
+  },
+  {
+    "id": "figure-07",
+    "title": "Sylvanas Windrunner Life Size Bust",
+    "img": "./img/scale-figures/07.jpg",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 500
+  },
+  {
+    "id": "figure-08",
+    "title": "Witch-King of Angmar Life Size Bust",
+    "img": "./img/scale-figures/08.webp",
+    "category": {
+      "label": "Scale Figures",
+      "id": "figures"
+    },
+    "price": 500
+  }
+]

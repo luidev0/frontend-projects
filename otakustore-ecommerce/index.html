@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otaku Store</title>
+    <!-- Bootstrap Icons CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- Toastify CSS File -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Wrapper section -->
+    <div class="wrapper">
+      <!-- Mobile header -->
+      <header class="header__mobile disabled">
+        <a href="index.html"
+          ><img src="img/logo.webp" alt="Otaku Store" class="logo"
+        /></a>
+        <button class="header__mobile-btnMenu" id="header__mobile-btnMenuOpen">
+          <i class="bi bi-list"></i>
+        </button>
+      </header>
+      <aside>
+        <button
+          class="header__mobile-btnMenu-close"
+          id="header__mobile-btnMenuClose"
+        >
+          <i class="bi bi-x"></i>
+        </button>
+        <!-- Header section -->
+        <header>
+          <a href="index.html"
+            ><img src="img/logo.webp" alt="Otaku Store" class="logo"
+          /></a>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button class="btn-menu btn-category active" id="all-products">
+                <i class="bi bi-hand-index-thumb-fill"></i> All products
+              </button>
+            </li>
+            <li>
+              <button class="btn-menu btn-category" id="nendoroids">
+                <i class="bi bi-hand-index-thumb"></i> Nendoroids
+              </button>
+            </li>
+            <li>
+              <button class="btn-menu btn-category" id="figmas">
+                <i class="bi bi-hand-index-thumb"></i> Figmas
+              </button>
+            </li>
+            <li>
+              <button class="btn-menu btn-category" id="figures">
+                <i class="bi bi-hand-index-thumb"></i> Scaled Figures
+              </button>
+            </li>
+            <li>
+              <a class="btn-menu btn-cart" href="./cart.html">
+                <i class="bi bi-cart-fill"></i> Cart
+                <span class="quantity" id="quantity">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Footer section -->
+        <footer>
+          <p class="footer__text">©Luigui P. All rights reserved 2024</p>
+        </footer>
+      </aside>
+      <!-- Main section -->
+      <main>
+        <h2 class="main__title" id="main__title">All products</h2>
+        <div id="main__container" class="main__container">
+          <!-- Esto se llenará con JS -->
+        </div>
+      </main>
+    </div>
+    <!-- Toastify JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- Custom Main JS file -->
+    <script src="./js/main.js"></script>
+    <!-- Custom Menu JS file -->
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
