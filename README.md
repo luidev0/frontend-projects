@@ -26,7 +26,8 @@ En cada proyecto indicaré que tecnologías o herramientas usé y como levantarl
 
 - [✅] **Proyecto 01: Ryu Clothing Website** | [Ver Live](https://ryuclothing.surge.sh)
 - [✅] **Proyecto 02: Otaku Store Website** | [Ver Live](https://otakustore.surge.sh)
-- [✅] **Proyecto 03: Watch Together** | [Ver Live](https://watchtogetherapp.netlify.app/)
+- [✅] **Proyecto 03: Watch Together** | [Ver Live](https://watchtogether-app.netlify.app/)
+- [✅] **Proyecto 04: Bulk It Up** | [Ver Live](https://bulkitup.netlify.app/)
 - [✅] **Portfolio 2024** | [Ver Live]()
 - [⌛] TBD
 
