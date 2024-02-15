@@ -76,7 +76,7 @@ Todos los derechos reservados **Luigui Parodi - Software Engineer**.
 
 - LinkedIn - **https://www.linkedin.com/in/luidevpe/**
 
-- Website - **https://luidev0.github.io/portfolio/**
+- Website - **https://luidev.netlify.app**
 
 - Discord - **luidev**
 
