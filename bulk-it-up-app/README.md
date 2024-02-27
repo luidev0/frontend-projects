@@ -88,7 +88,6 @@ Para poder configurar el proyecto deberás seguir los siguientes pasos correctam
 ## 🪪 Licencia
 
 Todos los derechos reservados a **Luigui Parodi - Software Engineer**.
-</br>
 
     👨‍💻Espero que disfruten este repositorio y lo usen de una manera para incrementar sus conocimientos.
 
